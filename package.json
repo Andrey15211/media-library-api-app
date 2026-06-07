@@ -1,0 +1,26 @@
+{
+  "name": "nova-media-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "vitest run",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^3.17.5",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.19.1",
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4",
+    "vue-tsc": "^3.3.3"
+  }
+}
