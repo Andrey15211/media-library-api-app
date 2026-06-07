@@ -28,7 +28,7 @@ useSeoMeta({
     <section v-else-if="error || !item" class="site-container page-shell">
       <StatusPanel type="error" :title="t('details.errorTitle')" :message="t('details.errorMessage')" @retry="refresh" />
     </section>
-    <article v-else class="detail-page" :style="{ '--detail-image': `url(${item.bannerImage || item.image})` }">
+    <article v-else class="detail-page" :style="{ '--detail-image': item.bannerImage ? `url(${item.bannerImage})` : 'none' }">
       <div class="detail-backdrop" />
       <div class="site-container detail-layout">
         <div class="detail-poster">

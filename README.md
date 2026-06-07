@@ -1,5 +1,10 @@
 # NOVA Media Catalog
 
+## Links
+
+- GitHub: https://github.com/Andrey15211/media-library-api-app
+- Live Demo: https://media-library-api-app.vercel.app
+
 NOVA is a standalone portfolio case study focused on external API integration
 and resilient frontend state. It presents an anime catalog through a cinematic,
 neon interface with search, pagination, detail pages, genre filtering, and

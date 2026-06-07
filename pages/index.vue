@@ -28,7 +28,7 @@ useSeoMeta({
 
 <template>
   <div>
-    <section v-if="featured" class="hero" :style="{ '--hero-image': `url(${featured.bannerImage || featured.image})` }">
+    <section v-if="featured" class="hero" :style="{ '--hero-image': featured.bannerImage ? `url(${featured.bannerImage})` : 'none' }">
       <div class="hero-backdrop" />
       <div class="site-container hero-content">
         <div class="hero-copy">
