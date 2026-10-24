@@ -85,3 +85,11 @@ Deployed on Vercel using the Nuxt.js preset. Nitro server endpoints run as Verce
 ## Recommended GitHub Topics
 
 `nuxt` `vue` `typescript` `anime-catalog` `jikan-api` `rest-api` `api-integration` `responsive-design` `localization` `vercel`
+
+---
+
+## Contact
+
+**Telegram:** [@andrey15211](https://t.me/andrey15211)  
+**Email:** andrejbadalin8@gmail.com  
+**GitHub:** [Andrey15211](https://github.com/Andrey15211)
